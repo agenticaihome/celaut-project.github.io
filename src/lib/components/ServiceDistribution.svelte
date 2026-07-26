@@ -68,7 +68,7 @@
         font-size: 2.5rem;
         margin-top: 0;
         margin-bottom: 16px;
-        color: var(--text-color);
+        color: #bf5836; /* terracotta heading accent on light sections */
     }
 
     .intro {

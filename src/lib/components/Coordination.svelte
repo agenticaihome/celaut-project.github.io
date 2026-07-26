@@ -59,7 +59,7 @@
     font-size: 2.5rem;
     margin: 0 auto 60px auto;
     max-width: 800px;
-    color: var(--color-text-dark);
+    color: #bf5836; /* terracotta heading accent on light sections */
   }
 
   .coordination-grid {

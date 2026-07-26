@@ -91,7 +91,7 @@
         text-align: center;
         font-size: 2.5rem;
         margin: 0 auto 60px auto;
-        color: #1d4241;
+        color: #bf5836; /* terracotta heading accent on light sections */
     }
 
     .principles-container {
