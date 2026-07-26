@@ -95,6 +95,7 @@
             cols = Math.ceil(canvas.width / resolution);
             rows = Math.ceil(canvas.height / resolution);
             grid = createGrid(cols, rows);
+            draw(grid); // Pinta el estado inicial de inmediato
         }
 
         // Crea una retícula 2D con un estado inicial aleatorio
@@ -104,10 +105,16 @@
                 .map(() => Math.floor(Math.random() * 1.4))); // Más ceros que unos para un look más disperso
         }
 
-        // Bucle principal de la animación
-        function gameLoop() {
-            grid = computeNextGeneration(grid);
-            draw(grid);
+        // Bucle principal de la animación.
+        // Se avanza una sola generación por segundo para un ritmo pausado.
+        const GENERATION_INTERVAL = 1000; // ms entre generaciones
+        let lastGeneration = 0;
+        function gameLoop(timestamp = 0) {
+            if (timestamp - lastGeneration >= GENERATION_INTERVAL) {
+                grid = computeNextGeneration(grid);
+                draw(grid);
+                lastGeneration = timestamp;
+            }
             requestAnimationFrame(gameLoop);
         }
 
@@ -188,12 +195,7 @@
         </p>
 
         <div class="buttons" in:fly={{ y: 20, duration: 600, delay: 2600 }}>
-            <a
-                class="button primary"
-                href="https://github.com/celaut-project/nodo?tab=readme-ov-file#installation"
-                target="_blank"
-                rel="noopener noreferrer">Start to use it</a
-            >
+            <a class="button primary" href="/install">Start to use it</a>
             <a
                 class="button secondary"
                 href="https://github.com/celaut-project/paradigm"

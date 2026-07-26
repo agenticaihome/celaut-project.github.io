@@ -24,7 +24,7 @@
     <div class="content-wrapper">
         <div class="text-content">
             <p>
-                <a href="https://github.com/celaut-project/nodo?tab=readme-ov-file#installation" target="_blank" rel="noopener noreferrer" class="title-link">
+                <a href="/install" class="title-link">
                     <strong>DePin</strong>
                 </a>
                 lets anyone run a Celaut node (<strong>nodo</strong>) and become part of a decentralized
