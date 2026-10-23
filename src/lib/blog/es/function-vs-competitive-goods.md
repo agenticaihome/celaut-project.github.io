@@ -2,153 +2,155 @@
 
 ## Planteamiento
 
-Existe una intuición extendida: si la IA llega a ser lo bastante capaz, el software y los servicios automatizables se volverán prácticamente gratuitos, y con ello desaparecerá una parte sustancial de la desigualdad económica. Este ensayo sostiene que la intuición es acertada **solo para una parte de los bienes**, y propone una hipótesis sobre cuál.
+Se oye a menudo que, cuando la IA sea lo bastante capaz, el software y cualquier servicio automatizable serán prácticamente gratis, y que eso acabará con buena parte de la desigualdad económica. Creemos que eso vale para algunos bienes y no para otros, y que la línea que los separa se puede trazar.
 
-La distinción relevante no está en lo difícil que sea producir un bien, sino en **cómo se define su éxito**:
+Lo que los separa es cómo se mide su éxito. Hay dos maneras:
 
-- contra un **umbral absoluto**: ¿funciona o no funciona?
-- contra **el resto de participantes**: ¿es mejor que el del rival?
+- contra un **umbral fijo**: ¿funciona?
+- contra **los demás participantes**: ¿es mejor que el del rival?
 
-No son dos cajas, sino los dos polos de un continuo. Para situar un bien en él basta una pregunta: **si todos los rivales obtuvieran la misma mejora que yo, ¿cuánto valor conservaría la mía?** Si conserva casi todo, el bien está cerca del polo de función. Si no conserva casi nada, está cerca del polo competitivo. A esa proporción la llamaremos *dependencia posicional*.
+Casi ningún bien es puramente de un tipo; lo normal es una mezcla. Para saber dónde cae uno sirve esta pregunta: si todos mis rivales consiguieran la misma mejora que yo, ¿cuánto valor me quedaría? En un bien de función, casi todo. En uno competitivo, casi nada. A la parte que se pierde la llamaremos *dependencia posicional*.
 
-La hipótesis es que, bajo abundancia de inteligencia artificial, el precio de los bienes cercanos al primer polo tiende a colapsar hacia el coste de producirlos, y el de los cercanos al segundo no, porque allí lo que se paga no es el bien sino la ventaja.
+La hipótesis es que, con IA abundante, el precio de los bienes de función tiende a caer hasta lo que cuesta producirlos, y el de los competitivos no, porque en estos lo que se paga es la ventaja sobre el resto.
 
-## El polo de función
+## Bienes de función
 
-Aquí están los bienes de los que solo se espera que **cumplan una función**: un formulario de reservas, una herramienta interna de inventario, un trámite administrativo, el software de contabilidad de una asociación, un script que ordena archivos.
+Son los que solo tienen que cumplir su cometido: un formulario de reservas, una herramienta interna de inventario, un trámite administrativo, el programa de contabilidad de una asociación, un script que ordena archivos.
 
-Su criterio de aceptación es **binario y saturable**. La reserva se registra o no se registra. Una vez cruzado el umbral, la calidad adicional apenas aporta: una aplicación de reservas dos veces mejor no genera el doble de reservas, porque el techo lo pone la demanda del negocio.
+O funcionan o no. La reserva queda registrada o no queda, y una vez que funciona, mejorarla aporta poco: una aplicación de reservas el doble de buena no trae el doble de clientes, porque eso depende de cuánta gente quiera cenar allí.
 
-De ello se derivan tres consecuencias encadenadas:
+De ahí salen tres cosas:
 
-1. **Basta con cualquier solución que resuelva.** No hay incentivo para pagar por una versión superior, porque «superior» significa poco una vez alcanzado el umbral.
-2. **El coste de la siguiente copia a medida se acerca al de la inferencia.** No es cero: siguen pesando la integración con otros sistemas, el mantenimiento y la responsabilidad cuando algo falla. Pero la parte que hoy domina el precio, el trabajo de desarrollo, es la que más se abarata.
-3. **Un precio muy por encima de ese coste es difícil de sostener**, porque el cliente puede generar una alternativa por poco.
+1. **Sirve cualquier solución que funcione.** Nadie paga más por una versión mejor si la que tiene ya cumple.
+2. **Hacer otra a medida cuesta poco más que la inferencia.** Quedan la integración con otros sistemas, el mantenimiento y alguien que responda cuando algo falla, pero el trabajo de desarrollo, que hoy es la mayor parte del precio, es justo lo que más se abarata.
+3. **Cobrar mucho más que eso es difícil**, porque el cliente puede encargar una alternativa por poco dinero.
 
-En este polo la promesa de la abundancia se cumple en lo esencial: lo que hoy cuesta decenas de miles de euros en desarrollo pasa a estar al alcance de casi cualquiera, y el excedente se reparte entre los antiguos clientes.
+Aquí la abundancia cumple lo que promete. Lo que hoy cuesta decenas de miles de euros de desarrollo queda al alcance de casi cualquiera, y el ahorro se lo quedan quienes antes eran clientes.
 
-Conviene, sin embargo, no exagerar su tamaño. **El polo de función puro es más estrecho de lo que parece.** La web de un restaurante cumple una función (mostrar la carta, aceptar reservas), pero también compite por la atención de quien está eligiendo dónde cenar. La parte funcional se abarata; la parte que compite por atención, no. La mayoría de los bienes reales son mezclas así, y la pregunta útil no es «¿de qué tipo es?», sino «¿qué fracción de su valor es posicional?».
+Ahora bien, hay menos bienes de función puros de lo que parece. La web de un restaurante enseña la carta y acepta reservas, pero también compite con las de otros restaurantes por la atención de quien está decidiendo dónde cenar. Lo primero se abarata; lo segundo, no. La mayoría de los bienes reales mezclan las dos cosas, y lo que interesa saber de cada uno es qué parte de su valor depende de la posición.
 
-## El polo competitivo
+## Bienes competitivos
 
-Aquí están los bienes que **compiten contra los de otros**, cuyo desempeño se mide por **cuánto mejores son que los del rival**: un robot de trading, un sistema de precios dinámicos, un algoritmo de puja publicitaria, un detector de fraude, un motor logístico, una herramienta de descubrimiento de fármacos.
+Son los que compiten contra los de otros y valen lo que valgan frente a ellos: un robot de trading, un sistema de precios dinámicos, un algoritmo de puja publicitaria, un detector de fraude, un motor logístico, una herramienta de descubrimiento de fármacos.
 
-No hay umbral de saturación, porque **el listón es el percentil de los demás**. Un robot de trading no es «bueno»: es bueno *frente a* los que hay al otro lado de la operación.
+Aquí no hay umbral que alcanzar, porque la referencia es lo que hacen los demás. Un robot de trading es bueno frente a los que tiene al otro lado de la operación, y deja de serlo en cuanto aparece uno mejor.
 
-Supóngase que un usuario pide a una IA «dame un robot de trading para generar ingresos» e invierte 200 $ de cómputo. Su robot se enfrenta a los de quienes invirtieron 10 $ y a los de quienes invirtieron 20.000 $. La pregunta ya no es si funciona, sino **en qué lugar de esa distribución cae**.
+Imaginemos a alguien que le pide a una IA «hazme un robot de trading para ganar dinero» y gasta 200 $ en cómputo. Su robot va a operar contra los de quienes gastaron 10 $ y contra los de quienes gastaron 20.000 $. Que funcione se da por hecho; lo que importa es en qué puesto de esa distribución acaba.
 
-### El cómputo es una fuente de ventaja, no la única
+### De dónde sale la ventaja
 
-Sería tentador concluir que el cómputo se convierte en *el* nuevo capital. Es más preciso decir que es **una de las formas de capital que reaparecen**. En trading pesan también la latencia y la cercanía física a la bolsa; en detección de fraude, los datos propietarios de años de transacciones; en logística, la flota y los almacenes; en fármacos, el acceso regulatorio y los ensayos clínicos; en casi todos, la distribución y la marca.
+El cómputo es una de las cosas que deciden ese puesto. En trading también cuentan la latencia y estar físicamente cerca de la bolsa; en detección de fraude, años de datos de transacciones propios; en logística, la flota y los almacenes; en fármacos, el acceso regulatorio y los ensayos clínicos; y en casi todos, la distribución y la marca.
 
-¿Refuerzan o atenúan la concentración? En su mayoría la refuerzan, porque tienden a estar en las mismas manos que el cómputo y se retroalimentan: más datos mejoran el modelo, un modelo mejor atrae más clientes, más clientes producen más datos. Algunos la atenúan: datos de nicho, relaciones locales, conocimiento específico de un dominio que no se compra con cómputo. Abaratar el modelo no elimina estas ventajas; en algunos mercados hace que pasen a ser lo único que distingue a un competidor de otro.
+La mayoría de estos factores refuerzan la concentración, porque suelen estar en las mismas manos que el cómputo y se alimentan entre sí: con más datos el modelo mejora, un modelo mejor atrae clientes y los clientes generan más datos. Unos pocos juegan a favor de los pequeños: datos de un nicho, relaciones locales, conocer a fondo un dominio. Abaratar los modelos no hace desaparecer ninguna de estas ventajas, y en algunos mercados las deja como lo único que distingue a un competidor de otro.
 
-### No todo es suma cero
+### Suma cero y suma positiva
 
-La competencia en este polo no es siempre un juego de suma cero, y la intensidad del diagnóstico debe ajustarse a cada caso.
+Hay competencias en las que lo que gana uno lo pierde otro, y otras en las que, además, se produce algo.
 
-- **Suma cero o cercana a cero.** En el trading especulativo o en las pujas publicitarias, lo que uno gana lo pierde otro. Aquí se aplican con toda su fuerza el **efecto Reina Roja** (el gasto agregado crece mientras las posiciones relativas apenas cambian) y la **disipación del excedente** (el gasto colectivo en cómputo reasigna rentas sin crear valor nuevo, y consume energía y silicio en el proceso).
-- **Suma positiva.** En el descubrimiento de fármacos, la detección de fraude o la logística, la competencia también produce algo: un tratamiento, menos fraude, envíos más baratos. Parte del gasto se duplica entre rivales y se pierde, pero no todo; el resultado social puede ser positivo aunque la carrera sea cara.
+- **Suma cero o casi.** Es el caso del trading especulativo o de las pujas publicitarias. Aquí aparece el **efecto Reina Roja**: todos gastan cada vez más y las posiciones apenas se mueven. Y el excedente se **disipa**: el cómputo que gastan entre todos solo cambia de manos rentas que ya existían, y por el camino consume energía y silicio.
+- **Suma positiva.** En el descubrimiento de fármacos, la detección de fraude o la logística, la competencia deja algo detrás: un tratamiento, menos fraude, envíos más baratos. Parte del gasto se pierde porque varios rivales hacen el mismo trabajo, pero el saldo para la sociedad puede ser positivo aunque la carrera salga cara.
 
-La desigualdad puede reproducirse en ambos casos. El despilfarro, en cambio, es característico del primero.
+En los dos casos puede crecer la desigualdad, pero el despilfarro es sobre todo cosa del primero.
 
-## Dos curvas, no una
+## Las dos curvas
 
-El argumento depende de dos relaciones empíricas que conviene separar.
+Todo lo anterior depende de dos relaciones que se pueden medir:
 
-> **Curva 1: ¿cuánta calidad compra cada unidad adicional de cómputo?**
+> **Curva 1: cuánta calidad se obtiene con cada unidad más de cómputo.**
 >
-> **Curva 2: ¿cuánta cuota de mercado o beneficio compra cada unidad adicional de calidad?**
+> **Curva 2: cuánta cuota de mercado o beneficio se obtiene con cada unidad más de calidad.**
 
-La primera puede **saturar pronto** (gastar cien veces más da un resultado apenas mejor, y el usuario de 200 $ queda cerca del de 20.000 $) o **no saturar** (cada orden de magnitud de cómputo compra una mejora sostenida, aunque sea logarítmica).
+La curva 1 puede aplanarse pronto, y entonces gastar cien veces más da un resultado apenas mejor y el robot de 200 $ queda cerca del de 20.000 $. O puede seguir subiendo: cada orden de magnitud de cómputo compra una mejora apreciable, aunque sea a ritmo logarítmico.
 
-La segunda depende de la estructura del mercado. En mercados donde **el ganador se lleva casi todo** (una búsqueda, una red con efectos de red, el mejor precio en un mercado transparente), una ventaja mínima basta para concentrar. En mercados **diferenciados** (por geografía, por nicho, por preferencias), una ventaja de calidad se traduce en una ventaja de cuota modesta.
+La curva 2 depende de cómo sea el mercado. Donde el ganador se lo lleva casi todo (las búsquedas, las plataformas con efectos de red, el precio más bajo en un mercado transparente), una ventaja pequeña basta para concentrarlo. Donde el mercado está repartido por geografía, por nichos o por gustos, ser mejor da algo más de cuota, pero poca.
 
-La concentración depende de la combinación:
+Cruzando las dos sale esta tabla:
 
-| | **Mercado diferenciado** | **El ganador se lleva casi todo** |
+| | **Mercado repartido** | **El ganador se lo lleva casi todo** |
 | :--- | :--- | :--- |
-| **La curva 1 satura** | Competencia abierta: el polo competitivo se comporta casi como el de función. | Concentración por factores distintos del cómputo: datos, distribución, marca. |
-| **La curva 1 no satura** | Ventaja del capital, pero acotada: varios actores grandes conviven. | Concentración fuerte: quien más gasta, más gana, y quien más gana, más puede gastar. |
+| **La curva 1 se aplana** | Competencia abierta. Los bienes competitivos se comportan casi como los de función. | Concentración debida a datos, distribución o marca. |
+| **La curva 1 sigue subiendo** | El capital da ventaja, pero caben varios actores grandes. | Concentración fuerte: quien más gasta más gana, y quien más gana más puede gastar. |
 
-Solo la casilla inferior derecha justifica la imagen de una espiral hacia el **control centralizado** y el **tecnofeudalismo**. La casilla superior izquierda empuja hacia la **competencia descentralizada**. Las otras dos son mixtas, y es probable que distintos sectores caigan en casillas distintas.
+La imagen de una espiral hacia el **control centralizado**, eso que se ha llamado **tecnofeudalismo**, corresponde a la casilla de abajo a la derecha. La de arriba a la izquierda lleva a una **competencia descentralizada**, y las otras dos quedan en medio. Lo más probable es que cada sector acabe en una casilla diferente.
 
-Lo que esto sugiere es que **quién tiene el poder podría depender en buena medida de hechos técnicos y de estructura de mercado**, y no solo de decisiones políticas. Si en un sector la curva 1 no satura y el ganador se lleva casi todo, regular el acceso a los modelos sirve de poco, porque lo escaso no es el modelo. La política no desaparece: puede actuar sobre la curva 2 (portabilidad de datos, interoperabilidad, competencia), que es más maleable que la primera.
+Esto quiere decir que el reparto del poder puede depender mucho de hechos técnicos y de cómo esté organizado cada mercado, además de las decisiones políticas. En un sector donde la curva 1 sigue subiendo y el ganador se lo lleva todo, regular el acceso a los modelos sirve de poco, porque lo escaso son otras cosas. Donde la política sí puede actuar es sobre la curva 2, que se deja mover más: portabilidad de datos, interoperabilidad, defensa de la competencia.
 
-## ¿Qué pasa si el cómputo sigue abaratándose?
+## ¿Y si el cómputo sigue abaratándose?
 
-El coste por unidad de cómputo ha caído de forma sostenida durante décadas. Esto admite dos lecturas, y ambas son plausibles.
+El precio del cómputo lleva décadas bajando, y eso puede tener dos efectos opuestos.
 
-- **Efecto igualador.** Si el umbral a partir del cual la curva 1 se aplana queda pronto al alcance de cualquiera, lo que hoy da ventaja a quien gasta 20.000 $ mañana lo obtendrá quien gaste 200 $.
-- **Efecto Reina Roja.** Si la curva no se aplana, el abaratamiento solo sube el nivel de la subasta: todos compran más con el mismo dinero, y las posiciones relativas quedan donde estaban.
+- **Igualar.** Si el punto en que la curva 1 se aplana queda pronto al alcance de cualquiera, la ventaja que hoy compra quien gasta 20.000 $ la tendrá mañana quien gaste 200 $.
+- **Reina Roja.** Si la curva no se aplana, el abaratamiento solo sube las pujas: todos compran más con el mismo dinero y cada uno sigue en su puesto.
 
-Cuál domina depende, de nuevo, de la forma de la curva 1. El precio del cómputo no resuelve la pregunta; la desplaza.
+Cuál de los dos pesa más vuelve a depender de la forma de la curva 1, así que el precio del cómputo, por sí solo, no decide nada.
 
-## Dos dinámicas de segundo orden
+## Dos efectos de segundo orden
 
-**1. La migración del polo de función al competitivo.** La frontera se mueve. Cuando un bien de función se vuelve gratuito y todos los competidores lo tienen, deja de diferenciar, y la competencia se traslada a otra dimensión. Un restaurante que hoy destaca por tener una web decente mañana no destacará por ello, y competirá en precios dinámicos, en optimización de compras o en reputación. **La competencia no desaparece: se traslada al siguiente eslabón no saturado.** Cada colapso de precio en el polo de función tiende a abrir un nuevo frente en el competitivo.
+**1. Lo funcional acaba siendo competitivo.** Cuando un bien de función pasa a ser gratis y lo tienen todos, ya no sirve para distinguirse, y la competencia se va a otra parte. Un restaurante que hoy destaca por tener una web decente no destacará por eso mañana; competirá en precios dinámicos, en cómo hace las compras o en su reputación. Cada vez que el precio de algo funcional se hunde, la competencia se muda al siguiente terreno que todavía no está saturado.
 
-**2. La desigualdad se vuelve más posicional que material.** El resultado combinado puede ser un mundo en el que las necesidades funcionales estén cubiertas para la mayoría a un coste muy bajo, y en el que la competencia por las posiciones relativas sea más intensa y más cara que nunca. Esta forma de desigualdad tiene una propiedad lógica que no depende de ningún dato: **un mecanismo que da lo mismo a todos no altera las posiciones relativas.** Una renta básica universal es eficaz contra la escasez, pero si todos reciben lo mismo, todos pueden invertir lo mismo en cómputo, y los percentiles quedan donde estaban. Puede ampliar quién participa; no cambia quién gana.
+**2. La desigualdad pasa a ser de posición más que de recursos.** Puede salir un mundo en el que casi todos tengan cubiertas sus necesidades funcionales a muy bajo coste y en el que, a la vez, la competencia por los puestos sea más dura y más cara que nunca. Contra este tipo de desigualdad hay un límite que no depende de ningún dato: si se da lo mismo a todos, las posiciones relativas no cambian. Una renta básica universal funciona contra la escasez, pero si todos reciben lo mismo, todos pueden gastar lo mismo en cómputo y cada uno sigue en su percentil. Quizá entre más gente en la competición, pero ganarán los mismos.
 
-## Las objeciones más fuertes
+## Objeciones
 
-**El optimista tecnológico** diría: la IA no abarata solo el cómputo, abarata también los demás factores. Hace más fácil generar datos sintéticos, construir distribución, crear marca. Además, cada mercado que se satura abre otros nuevos, y siempre hay nichos donde un pequeño actor gana. *Respuesta:* es posible, y es exactamente el escenario de la casilla superior izquierda. Pero no se deduce de la capacidad de la IA, sino de la forma de las dos curvas, y algunos factores (latencia, infraestructura física, acceso regulatorio) no se abaratan con software.
+Las dos objeciones más serias que conocemos son estas.
 
-**El escéptico de la concentración** diría: las ventajas tecnológicas se han erosionado siempre. Los monopolios se debilitan, los rivales imitan, la regulación antimonopolio interviene, y la historia está llena de líderes desplazados. *Respuesta:* también es posible, y empuja hacia las casillas de la izquierda. La diferencia es que la erosión clásica dependía de que imitar fuera más barato que innovar. Si la ventaja reside en el volumen de cómputo y datos acumulados, imitar puede salir tan caro como competir. Es una hipótesis, no una certeza, y los indicadores de la sección siguiente sirven para comprobarla.
+**Un optimista tecnológico** diría que la IA abarata también todo lo demás: generar datos sintéticos, conseguir distribución, crear una marca. Y que cada mercado que se satura abre otros, con nichos donde un actor pequeño puede ganar. Puede pasar, y sería el escenario de la casilla de arriba a la izquierda. Pero eso se sigue de la forma de las dos curvas, y no de lo capaz que sea la IA. Además, hay factores que el software no abarata: la latencia, la infraestructura física, el acceso regulatorio.
 
-## Cómo sabremos hacia dónde vamos
+**Un escéptico de la concentración** recordaría que las ventajas tecnológicas siempre han acabado erosionándose: los monopolios se debilitan, los rivales copian, las autoridades de competencia intervienen, y la historia está llena de líderes desbancados. También puede pasar, y empujaría hacia las casillas de la izquierda. Pero esa erosión funcionaba porque copiar salía más barato que innovar. Si la ventaja está en el cómputo y los datos acumulados, copiar puede costar lo mismo que competir. No lo sabemos, y para comprobarlo están los indicadores de la sección siguiente.
 
-La hipótesis es falsable. Estos indicadores permitirían saber qué casilla describe cada sector:
+## Cómo saber hacia dónde vamos
 
-- **Márgenes del software de encargo y de la gestión estandarizada.** Si caen de forma sostenida, el polo de función se comporta como se espera.
-- **Concentración del gasto en cómputo.** Qué fracción del gasto mundial en entrenamiento e inferencia corresponde a los mayores compradores, y cómo evoluciona.
-- **Rendimientos marginales en benchmarks competitivos.** Cuánto mejora el resultado al doblar el cómputo en tareas donde se compite contra otros sistemas: es una medida directa de la curva 1.
-- **Relación entre gasto en cómputo e I+D y cuota de mercado.** Si la cuota sigue al gasto con poca dispersión, la curva 2 es empinada.
-- **Rotación de líderes.** Con qué frecuencia cambia quién ocupa los primeros puestos en sectores intensivos en IA.
+La hipótesis se puede poner a prueba. Para saber en qué casilla está cada sector, habría que seguir estos datos:
 
-## Síntesis comparada
+- **Márgenes del software a medida y de la gestión estandarizada.** Si bajan de forma sostenida, los bienes de función se comportan como predice la hipótesis.
+- **Concentración del gasto en cómputo:** qué parte del gasto mundial en entrenamiento e inferencia hacen los mayores compradores, y cómo cambia con el tiempo.
+- **Rendimiento marginal en benchmarks competitivos:** cuánto mejora el resultado al doblar el cómputo en tareas donde un sistema se enfrenta a otros. Es una medida directa de la curva 1.
+- **Relación entre gasto (en cómputo e I+D) y cuota de mercado.** Si la cuota sigue de cerca al gasto, la curva 2 es empinada.
+- **Rotación de líderes:** cada cuánto cambian los primeros puestos en los sectores que más usan IA.
 
-| | **Polo de función** | **Polo competitivo, suma positiva** | **Polo competitivo, suma cero** |
+## Resumen
+
+| | **Función** | **Competitivo, suma positiva** | **Competitivo, suma cero** |
 | :--- | :--- | :--- | :--- |
-| **Criterio de éxito** | Absoluto: ¿funciona? | Relativo, pero con valor creado | Relativo: ¿mejor que el rival? |
-| **¿Satura?** | Sí, en el umbral de utilidad | Depende de la curva 1 | Depende de la curva 1 |
-| **Coste** | Tiende al de inferencia e integración | Gasto creciente, en parte productivo | Gasto creciente, en gran parte disipado |
+| **Criterio de éxito** | ¿Funciona? | Mejor que el rival, y además crea valor | Mejor que el rival |
+| **¿Satura?** | Sí, al llegar al umbral | Según la curva 1 | Según la curva 1 |
+| **Coste** | Se acerca al de inferencia e integración | Gasto creciente, en parte productivo | Gasto creciente, en gran parte perdido |
 | **Fuentes de ventaja** | Casi ninguna una vez cruzado el umbral | Cómputo, datos, infraestructura, acceso regulatorio | Cómputo, latencia, datos, distribución |
-| **Destino del excedente** | Se reparte entre los usuarios | Repartido entre usuarios y ganadores | Se concentra en quien gana la carrera |
-| **Efecto sobre la desigualdad** | Tiende a reducirla | Depende de la curva 2 | Tiende a reproducirla |
-| **Empuja el poder hacia** | Descentralización | Depende de la casilla | Centralización, si la curva 1 no satura |
+| **Quién se queda el excedente** | Los usuarios | Usuarios y ganadores | Quien gana la carrera |
+| **Desigualdad** | Tiende a bajar | Según la curva 2 | Tiende a reproducirse |
+| **Hacia dónde va el poder** | Descentralización | Según la casilla | Centralización, si la curva 1 sigue subiendo |
 
-## Conclusión: dos lógicas superpuestas
+## Conclusión
 
-La IA avanzada no produce una sola economía, sino al menos dos lógicas superpuestas que conviven dentro de casi cada bien.
+Con IA avanzada conviven dos lógicas, a menudo dentro de un mismo bien.
 
-En la de **función**, la promesa de la abundancia se cumple en lo esencial: el coste cae hacia el de producir, y la sobreinversión no da ventaja. Es una economía de post-escasez para una parte del consumo, y es real.
+En la parte funcional, la abundancia cumple: el precio cae hacia el coste de producir y gastar de más no da ventaja. Para esa parte del consumo, la post-escasez es real.
 
-En la **competitiva**, la promesa no se cumple por sí sola: el criterio relativo impide la saturación, y el cómputo se suma a los datos, la infraestructura y la distribución como fuentes de ventaja. Si eso reproduce la desigualdad, y con qué intensidad, depende de dos curvas que hoy no conocemos bien y que pueden ser distintas en cada sector.
+En la parte competitiva eso no ocurre solo. Al medirse contra los demás no hay techo, y el cómputo se suma a los datos, la infraestructura y la distribución como fuente de ventaja. Si eso reproduce la desigualdad, y cuánto, depende de dos curvas que hoy conocemos mal y que pueden ser distintas en cada sector.
 
-El error analítico más frecuente es extrapolar una de las dos lógicas al conjunto. Quien observa la primera anuncia el fin de la escasez; quien observa la segunda anuncia el feudalismo definitivo. Ambos describen bien una parte del fenómeno, y ambos se equivocan al presentarla como el todo.
+El error más común es tomar una de las dos lógicas por el todo. Quien mira la primera anuncia el fin de la escasez; quien mira la segunda, un feudalismo definitivo. Cada uno tiene razón en su parte.
 
-Lo más probable es que el desenlace no se decida en los bienes de función, donde la dirección parece clara, sino **en el reparto del cómputo y de los demás factores que alimentan a los bienes competitivos**, y en la forma que tengan, sector a sector, las dos curvas.
+Lo funcional parece tener el camino bastante claro. Lo que está por decidir es cómo se reparten el cómputo y los demás factores de los que viven los bienes competitivos, y qué forma tienen las dos curvas en cada sector.
 
 ## Dónde entra Celaut
 
-Lo que sigue es nuestra lectura de cómo se relaciona un proyecto concreto con este argumento, y conviene leerla como tal.
+Celaut es nuestro proyecto, así que lo que sigue es cómo lo vemos encajar en este argumento, con el sesgo que eso supone.
 
-Celaut es una arquitectura *peer-to-peer* para diseñar y distribuir software: servicios reproducibles que cualquier nodo puede ejecutar, anunciar o pagar, sin una autoridad central. Toca el argumento en cuatro puntos.
+Celaut es una arquitectura *peer-to-peer* para diseñar y distribuir software: servicios reproducibles que cualquier nodo puede ejecutar, anunciar o pagar, sin autoridad central. Se cruza con lo anterior en cuatro sitios.
 
-**1. La parte funcional es lo que una red así distribuye con coste casi nulo.** Un servicio es una unidad reproducible y direccionable por contenido; una vez publicado, cualquier nodo puede ejecutarlo. El registro de Unstoppable Skills permite, además, buscar por el problema y no por el proveedor, con *benchmarks* y reputación. Cuando lo único que importa es que algo funcione, lo que hace falta es encontrarlo y ejecutarlo, no comprarlo.
+**1. Distribuye la parte funcional casi gratis.** Un servicio es una unidad reproducible y direccionable por contenido, y una vez publicado cualquier nodo puede ejecutarlo. El registro de Unstoppable Skills permite además buscar por el problema que se quiere resolver, en vez de por proveedor, con *benchmarks* y reputación. Si lo único que importa es que algo funcione, basta con encontrarlo y ejecutarlo.
 
-**2. El cómputo es una de las fuentes de ventaja del polo competitivo, y Celaut es, entre otras cosas, un mercado de cómputo.** Cualquiera puede [alquilar su equipo](/depin) cuando no lo usa y fijar su precio en función de lo que le cuesta la electricidad; los nodos negocian el coste entre pares y liquidan en Ergo o en Bitcoin. Un mercado abierto, en el que entrar no requiere permiso, reduce la dependencia de unos pocos proveedores, y alquilar capacidad por ráfagas permite a un actor pequeño competir sin poseer silicio. Celaut actúa sobre ese factor y no sobre los demás: no aporta datos propietarios, ni latencia, ni distribución.
+**2. Es un mercado de cómputo.** Cualquiera puede [alquilar su equipo](/depin) cuando no lo usa, al precio que le salga a cuenta según lo que pague de luz; los nodos negocian entre ellos y liquidan en Ergo o en Bitcoin. Un mercado abierto, en el que se entra sin pedir permiso, reduce la dependencia de unos pocos proveedores, y alquilar capacidad por ráfagas deja a un actor pequeño competir sin tener máquinas propias. Celaut actúa sobre el cómputo y sobre nada más: no da datos propietarios, ni latencia, ni distribución.
 
-**3. Game of Prompts es un laboratorio de la curva 1.** En esa plataforma, construida con servicios Celaut, los creadores diseñan servicios-juego que evalúan a los robots, y los jugadores escriben servicios-solucionador que intentan maximizar su puntuación; los resultados y los premios se registran en Ergo. Es un caso competitivo explícito y medible: permite observar cuánto mejora la posición de un solucionador cuando se le dedica más cómputo, que es exactamente uno de los indicadores de la sección anterior.
+**3. Game of Prompts sirve para medir la curva 1.** En esta plataforma, hecha con servicios Celaut, unos diseñan servicios-juego que puntúan a los robots y otros escriben servicios-solucionador que intentan sacar la máxima puntuación; resultados y premios quedan registrados en Ergo. Es un caso competitivo y medible: se puede ver cuánto sube un solucionador en la clasificación cuando se le da más cómputo, que es uno de los indicadores de arriba.
 
-**4. La reputación importa más en el polo competitivo.** En un bien de función, usted comprueba por sí mismo si funciona. En uno competitivo, saber si un servicio es realmente mejor que otro exige mediciones comparables y un historial que cueste falsificar. El diseño de Celaut, con una capa de reputación en la que nadie hace spam sin arriesgar algo, apunta en esa dirección, aunque sea una pieza y no una solución.
+**4. La reputación pesa más en lo competitivo.** Si un bien es funcional, uno mismo comprueba si funciona. Si es competitivo, saber si un servicio es mejor que otro exige mediciones comparables y un historial difícil de falsificar. Celaut tiene una capa de reputación en la que hacer spam cuesta algo. Es una pieza del problema, nada más.
 
 ### Lo que Celaut no resuelve
 
-Celaut **no cambia la forma de ninguna de las dos curvas**. Si la curva 1 no satura y el mercado premia al ganador, quien tenga más capital seguirá comprando más cómputo, también en un mercado abierto. Tampoco corrige la desigualdad posicional. Lo que sí puede hacer es empujar en la dirección descentralizadora en el factor sobre el que actúa: que la infraestructura de cómputo no tenga un dueño, que la parte funcional de los bienes circule como bien común, y que la competencia se libre en un terreno donde participar no requiera permiso.
+Celaut no cambia la forma de ninguna de las dos curvas. Si la curva 1 sigue subiendo y el mercado premia al ganador, quien tenga más capital comprará más cómputo, también en un mercado abierto. Tampoco toca la desigualdad posicional. Lo que puede hacer es empujar hacia la descentralización en lo que le corresponde: que la infraestructura de cómputo no tenga dueño, que la parte funcional de los bienes circule como bien común y que para competir no haga falta pedir permiso.
 
-Si el desenlace depende en buena medida del reparto del cómputo, construir una red abierta donde ese cómputo se ofrece, se paga y se verifica entre pares no es un detalle de ingeniería. Es una apuesta por una de las casillas.
+Si el resultado depende en buena parte de cómo se reparta el cómputo, montar una red abierta donde se ofrece, se paga y se verifica entre pares es apostar por una de las casillas de la tabla.
 
 ## Para seguir leyendo
 
