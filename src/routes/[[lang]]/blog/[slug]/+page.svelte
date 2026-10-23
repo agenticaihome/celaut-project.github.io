@@ -217,6 +217,17 @@
 		fill: var(--on-surface-subtle);
 	}
 
+	/* The chart scales down on phones; keep its text readable. */
+	@media (max-width: 520px) {
+		.prose :global(.chart text) {
+			font-size: 19px;
+		}
+
+		.prose :global(.chart .tick) {
+			font-size: 18px;
+		}
+	}
+
 	.prose :global(.chart .series) {
 		font-weight: 700;
 		fill: var(--on-surface);
