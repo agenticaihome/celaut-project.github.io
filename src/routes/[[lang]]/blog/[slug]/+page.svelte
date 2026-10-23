@@ -129,6 +129,40 @@
 		color: var(--on-surface);
 	}
 
+	.prose :global(blockquote) {
+		margin: 20px 0;
+		padding: 8px 20px;
+		border-inline-start: 4px solid var(--accent);
+		background-color: var(--accent-soft);
+		border-radius: 8px;
+	}
+
+	.prose :global(blockquote p) {
+		margin: 8px 0;
+	}
+
+	/* Wide tables scroll sideways inside themselves, not the page. */
+	.prose :global(table) {
+		display: block;
+		overflow-x: auto;
+		border-collapse: collapse;
+		margin: 0 0 24px;
+		font-size: 0.92rem;
+		line-height: 1.5;
+	}
+
+	.prose :global(th),
+	.prose :global(td) {
+		border: 1px solid var(--border);
+		padding: 8px 12px;
+		text-align: start;
+		vertical-align: top;
+	}
+
+	.prose :global(thead th) {
+		background-color: var(--surface-raised);
+	}
+
 	.prose :global(em) {
 		color: var(--on-surface-muted);
 	}
