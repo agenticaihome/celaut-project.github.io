@@ -58,7 +58,8 @@ export default {
 			depin: { label: 'Rent your PC', short: 'Rent PC' },
 			developers: { label: 'Developers', short: 'Devs' },
 			users: { label: 'Users', short: 'Users' },
-			paradigm: { label: 'Paradigm', short: 'Paradigm' }
+			paradigm: { label: 'Paradigm', short: 'Paradigm' },
+			blog: { label: 'Blog', short: 'Blog' }
 		}
 	},
 
@@ -626,7 +627,7 @@ export default {
 		implementations: {
 			eyebrow: 'The software',
 			heading: 'What exists today',
-			intro: 'The architecture is a specification, and anyone can implement a node against it. One implementation runs the network now; a second is an announced direction, and is marked as such.',
+			intro: 'The architecture is a specification, and anyone can implement a node against it. One implementation runs the network today; a second, for Android, is in alpha.',
 			items: [
 				{
 					name: 'Nodo',
@@ -635,8 +636,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: 'Concept',
-					body: 'A stated intention to build an Android node that reaches services through a plain chat interface, without trusting any other node. The repository currently holds that description and nothing more — there is no code to run yet.'
+					stage: 'Alpha',
+					body: 'An Android app to use Celaut services without intermediaries: a light client that reaches services through a plain chat interface, with an Ergo wallet built in. It is in alpha — pre-release APKs are published on GitHub and development is active, so expect rough edges.'
 				}
 			],
 			note: 'Nothing here is a placeholder for something that already works elsewhere. What runs, runs; what does not, says so.'
@@ -1404,6 +1405,17 @@ export default {
 		systemBehaviorHeading: 'System behavior',
 		executionHeading: 'Execution of a service',
 		balancerHeading: 'Service load balancing'
+	},
+
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — Blog',
+			description: 'Essays on where decentralised compute fits in the economy of AI.'
+		},
+		topbarTitle: 'Blog',
+		read: 'Read the post →',
+		back: '← All posts'
 	},
 
 	/* ============================================================== *

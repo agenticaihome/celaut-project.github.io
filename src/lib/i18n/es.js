@@ -254,7 +254,8 @@ export default {
 			paradigm: {
 				label: 'Paradigma',
 				short: 'Paradigma'
-			}
+			},
+			blog: { label: 'Blog', short: 'Blog' }
 		}
 	},
 	home: {
@@ -546,7 +547,7 @@ export default {
 		implementations: {
 			eyebrow: 'El software',
 			heading: 'Qué existe hoy',
-			intro: 'La arquitectura es una especificación, y cualquiera puede implementar un nodo contra ella. Una implementación mueve la red ahora mismo; la segunda es una dirección anunciada, y así queda marcada.',
+			intro: 'La arquitectura es una especificación, y cualquiera puede implementar un nodo contra ella. Una implementación mueve la red hoy; una segunda, para Android, está en alfa.',
 			items: [
 				{
 					name: 'Nodo',
@@ -555,8 +556,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: 'Concepto',
-					body: 'La intención declarada de construir un nodo para Android que llegue a los servicios mediante una interfaz de chat sencilla, sin confiar en ningún otro nodo. El repositorio contiene hoy esa descripción y nada más: todavía no hay código que ejecutar.'
+					stage: 'Alfa',
+					body: 'Una aplicación Android para usar servicios Celaut sin intermediarios: un cliente ligero que llega a los servicios mediante una interfaz de chat sencilla, con una cartera Ergo integrada. Está en alfa: los APK de preversión se publican en GitHub y el desarrollo está activo, así que cabe esperar asperezas.'
 				}
 			],
 			note: 'Aquí nada es un marcador de posición de algo que ya funciona en otra parte. Lo que funciona, funciona; lo que no, lo dice.'
@@ -1319,6 +1320,17 @@ export default {
 		executionHeading: 'Ejecución de un servicio',
 		balancerHeading: 'Balanceo de carga de servicios'
 	},
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — Blog',
+			description: 'Ensayos sobre el lugar del cómputo descentralizado en la economía de la IA.'
+		},
+		topbarTitle: 'Blog',
+		read: 'Leer la entrada →',
+		back: '← Todas las entradas'
+	},
+
 	viz: {
 		home: {
 			generation: 'generación {n}',

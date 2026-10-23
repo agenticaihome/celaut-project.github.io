@@ -254,7 +254,8 @@ export default {
 			paradigm: {
 				label: 'Paradigmă',
 				short: 'Paradigmă'
-			}
+			},
+			blog: { label: 'Blog', short: 'Blog' }
 		}
 	},
 	home: {
@@ -546,7 +547,7 @@ export default {
 		implementations: {
 			eyebrow: 'Software-ul',
 			heading: 'Ce există astăzi',
-			intro: 'Arhitectura este o specificație, iar oricine poate implementa un nod după ea. O implementare susține rețeaua acum; a doua este o direcție anunțată și este marcată ca atare.',
+			intro: 'Arhitectura este o specificație, iar oricine poate implementa un nod pornind de la ea. O implementare rulează rețeaua astăzi; a doua, pentru Android, este în alfa.',
 			items: [
 				{
 					name: 'Nodo',
@@ -555,8 +556,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: 'Concept',
-					body: 'Intenția declarată de a construi un nod Android care ajunge la servicii printr-o interfață simplă de chat, fără a avea încredere în vreun alt nod. Depozitul conține momentan doar această descriere — încă nu există cod care să poată fi rulat.'
+					stage: 'Alfa',
+					body: 'O aplicație Android pentru a folosi serviciile Celaut fără intermediari: un client ușor care ajunge la servicii printr-o interfață simplă de chat, cu un portofel Ergo integrat. Este în alfa — APK-uri de pre-lansare sunt publicate pe GitHub, iar dezvoltarea este activă, deci te poți aștepta la asperități.'
 				}
 			],
 			note: 'Nimic de aici nu ține locul a ceva ce funcționează deja în altă parte. Ce merge, merge; ce nu merge, o spune.'
@@ -1319,6 +1320,17 @@ export default {
 		executionHeading: 'Execuția unui serviciu',
 		balancerHeading: 'Echilibrarea încărcării serviciilor'
 	},
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — Blog',
+			description: 'Eseuri despre locul calculului descentralizat în economia IA.'
+		},
+		topbarTitle: 'Blog',
+		read: 'Citește articolul →',
+		back: '← Toate articolele'
+	},
+
 	viz: {
 		home: {
 			generation: 'generația {n}',

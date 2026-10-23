@@ -252,7 +252,8 @@ export default {
 			paradigm: {
 				label: 'Mô hình',
 				short: 'Mô hình'
-			}
+			},
+			blog: { label: 'Blog', short: 'Blog' }
 		}
 	},
 	home: {
@@ -544,7 +545,7 @@ export default {
 		implementations: {
 			eyebrow: 'Phần mềm',
 			heading: 'Hôm nay có gì',
-			intro: 'Kiến trúc này là một đặc tả, và ai cũng có thể hiện thực một node theo nó. Một hiện thực đang thực sự vận hành mạng lưới; cái thứ hai là một hướng đi đã công bố, và được ghi rõ như vậy.',
+			intro: 'Kiến trúc là một bản đặc tả, và ai cũng có thể triển khai một node dựa trên nó. Hiện một bản triển khai đang vận hành mạng; bản thứ hai, dành cho Android, đang ở giai đoạn alpha.',
 			items: [
 				{
 					name: 'Nodo',
@@ -553,8 +554,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: 'Ý tưởng',
-					body: 'Một dự định đã tuyên bố: xây một node Android tiếp cận dịch vụ qua giao diện trò chuyện đơn giản, không cần tin tưởng bất kỳ node nào khác. Kho mã hiện chỉ chứa mô tả đó và không có gì hơn — chưa có mã nào để chạy.'
+					stage: 'Alpha',
+					body: 'Một ứng dụng Android để dùng dịch vụ Celaut mà không qua trung gian: máy khách nhẹ tiếp cận dịch vụ qua giao diện trò chuyện đơn giản, tích hợp sẵn ví Ergo. Ứng dụng đang ở giai đoạn alpha — các APK tiền phát hành được đăng trên GitHub và việc phát triển vẫn tiếp diễn, nên có thể còn chỗ chưa mượt.'
 				}
 			],
 			note: 'Ở đây không có gì đứng thế chỗ cho một thứ đã chạy được ở nơi khác. Cái gì chạy thì chạy; cái gì chưa, thì nói rõ.'
@@ -1317,6 +1318,17 @@ export default {
 		executionHeading: 'Thực thi một service',
 		balancerHeading: 'Cân bằng tải service'
 	},
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — Blog',
+			description: 'Các bài luận về vị trí của điện toán phi tập trung trong nền kinh tế AI.'
+		},
+		topbarTitle: 'Blog',
+		read: 'Đọc bài viết →',
+		back: '← Tất cả bài viết'
+	},
+
 	viz: {
 		home: {
 			generation: 'thế hệ {n}',

@@ -251,7 +251,8 @@ export default {
 			paradigm: {
 				label: '패러다임',
 				short: '패러다임'
-			}
+			},
+			blog: { label: '블로그', short: '블로그' }
 		}
 	},
 	home: {
@@ -543,7 +544,7 @@ export default {
 		implementations: {
 			eyebrow: '소프트웨어',
 			heading: '오늘 존재하는 것',
-			intro: '이 아키텍처는 명세이며, 누구나 그에 맞춰 노드를 구현할 수 있습니다. 지금 네트워크를 실제로 굴리는 구현이 하나 있고, 두 번째는 발표된 방향일 뿐이며 그렇게 표시되어 있습니다.',
+			intro: '이 아키텍처는 명세이며, 누구든 그에 맞춰 노드를 구현할 수 있습니다. 오늘은 하나의 구현이 네트워크를 움직이고, Android용 두 번째 구현은 알파 단계입니다.',
 			items: [
 				{
 					name: 'Nodo',
@@ -552,8 +553,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: '구상',
-					body: '다른 어떤 노드도 신뢰하지 않고 단순한 채팅 인터페이스로 서비스에 접근하는 안드로이드 노드를 만들겠다는 선언된 의도입니다. 저장소에는 현재 그 설명만 있을 뿐 — 아직 실행할 코드는 없습니다.'
+					stage: '알파',
+					body: '중개자 없이 Celaut 서비스를 이용하는 Android 앱: 단순한 채팅 인터페이스로 서비스에 접근하는 라이트 클라이언트이며 Ergo 지갑이 내장되어 있습니다. 알파 단계로, 사전 릴리스 APK가 GitHub에 공개되어 있고 개발이 활발하니 거친 부분이 있을 수 있습니다.'
 				}
 			],
 			note: '여기 있는 어느 것도 다른 데서 이미 동작하는 무언가의 자리를 대신 채우고 있지 않습니다. 되는 것은 된다고, 안 되는 것은 안 된다고 말합니다.'
@@ -1316,6 +1317,17 @@ export default {
 		executionHeading: '서비스의 실행',
 		balancerHeading: '서비스 부하 분산'
 	},
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — 블로그',
+			description: 'AI 경제에서 탈중앙화 컴퓨팅이 차지하는 자리를 다루는 에세이.'
+		},
+		topbarTitle: '블로그',
+		read: '글 읽기 →',
+		back: '← 모든 글'
+	},
+
 	viz: {
 		home: {
 			generation: '{n}세대',

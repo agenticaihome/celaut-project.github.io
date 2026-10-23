@@ -252,7 +252,8 @@ export default {
 			paradigm: {
 				label: 'Paradigma',
 				short: 'Paradigma'
-			}
+			},
+			blog: { label: 'Blog', short: 'Blog' }
 		}
 	},
 	home: {
@@ -544,7 +545,7 @@ export default {
 		implementations: {
 			eyebrow: 'O software',
 			heading: 'O que existe hoje',
-			intro: 'A arquitetura é uma especificação, e qualquer pessoa pode implementar um nó contra ela. Uma implementação faz a rede funcionar agora; a segunda é uma direção anunciada, e está assinalada como tal.',
+			intro: 'A arquitetura é uma especificação, e qualquer pessoa pode implementar um nó a partir dela. Uma implementação move a rede hoje; uma segunda, para Android, está em alfa.',
 			items: [
 				{
 					name: 'Nodo',
@@ -553,8 +554,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: 'Conceito',
-					body: 'A intenção declarada de construir um nó Android que alcance serviços através de uma interface de chat simples, sem confiar em nenhum outro nó. O repositório contém hoje essa descrição e nada mais — ainda não há código para correr.'
+					stage: 'Alfa',
+					body: 'Um aplicativo Android para usar serviços Celaut sem intermediários: um cliente leve que alcança os serviços por uma interface de chat simples, com uma carteira Ergo integrada. Está em alfa — APKs de pré-lançamento são publicados no GitHub e o desenvolvimento é ativo, então espere arestas.'
 				}
 			],
 			note: 'Nada aqui é um marcador de posição para algo que já funciona noutro sítio. O que funciona, funciona; o que não funciona, di-lo.'
@@ -1317,6 +1318,17 @@ export default {
 		executionHeading: 'Execução de um serviço',
 		balancerHeading: 'Balanceamento de carga de serviços'
 	},
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — Blog',
+			description: 'Ensaios sobre o lugar da computação descentralizada na economia da IA.'
+		},
+		topbarTitle: 'Blog',
+		read: 'Ler o artigo →',
+		back: '← Todos os artigos'
+	},
+
 	viz: {
 		home: {
 			generation: 'geração {n}',

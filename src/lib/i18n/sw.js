@@ -253,7 +253,8 @@ export default {
 			paradigm: {
 				label: 'Mfumo msingi',
 				short: 'Mfumo'
-			}
+			},
+			blog: { label: 'Blogu', short: 'Blogu' }
 		}
 	},
 	home: {
@@ -545,7 +546,7 @@ export default {
 		implementations: {
 			eyebrow: 'Programu',
 			heading: 'Kilichopo leo',
-			intro: 'Muundo huu ni maelezo rasmi, na yeyote anaweza kutengeneza nodi kwa kuufuata. Utekelezaji mmoja unaendesha mtandao sasa hivi; wa pili ni mwelekeo uliotangazwa, na umewekwa alama hivyo.',
+			intro: 'Usanifu huu ni vipimo, na yeyote anaweza kutekeleza nodi kwa kuvifuata. Utekelezaji mmoja unaendesha mtandao leo; wa pili, wa Android, uko katika hatua ya alfa.',
 			items: [
 				{
 					name: 'Nodo',
@@ -554,8 +555,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: 'Wazo',
-					body: 'Nia iliyotangazwa ya kujenga nodi ya Android inayofikia huduma kupitia kiolesura rahisi cha mazungumzo, bila kuamini nodi nyingine yoyote. Hazina ina maelezo hayo tu kwa sasa — bado hakuna msimbo wa kuendesha.'
+					stage: 'Alfa',
+					body: 'Programu ya Android ya kutumia huduma za Celaut bila wapatanishi: mteja mwepesi anayefikia huduma kupitia kiolesura rahisi cha mazungumzo, akiwa na pochi ya Ergo ndani yake. Iko katika hatua ya alfa — APK za kabla ya toleo rasmi zinachapishwa GitHub na uendelezaji unaendelea, kwa hivyo tarajia kasoro chache.'
 				}
 			],
 			note: 'Hakuna kitu hapa kinachoshika nafasi ya kitu kinachofanya kazi mahali pengine. Kinachofanya kazi, kinafanya kazi; kisichofanya, kinasema hivyo.'
@@ -1318,6 +1319,17 @@ export default {
 		executionHeading: 'Utekelezaji wa huduma',
 		balancerHeading: 'Ulinganishaji wa mzigo wa huduma'
 	},
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — Blogu',
+			description: 'Insha kuhusu mahali pa kompyuta iliyogatuliwa katika uchumi wa AI.'
+		},
+		topbarTitle: 'Blogu',
+		read: 'Soma makala →',
+		back: '← Makala zote'
+	},
+
 	viz: {
 		home: {
 			generation: 'kizazi {n}',

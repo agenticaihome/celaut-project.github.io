@@ -252,7 +252,8 @@ export default {
 			paradigm: {
 				label: 'パラダイム',
 				short: 'パラダイム'
-			}
+			},
+			blog: { label: 'ブログ', short: 'ブログ' }
 		}
 	},
 	home: {
@@ -544,7 +545,7 @@ export default {
 		implementations: {
 			eyebrow: 'ソフトウェア',
 			heading: '今日あるもの',
-			intro: 'このアーキテクチャは仕様であり、誰でもそれに沿ってノードを実装できます。いま実際にネットワークを動かしている実装が一つ。もう一つは表明された方向性であり、そう明記してあります。',
+			intro: 'このアーキテクチャは仕様であり、誰でもそれに沿ってノードを実装できます。現在ネットワークを動かしている実装は一つ、Android 向けの二つ目はアルファ段階です。',
 			items: [
 				{
 					name: 'Nodo',
@@ -553,8 +554,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: '構想',
-					body: '他のどのノードも信頼せずに、素朴なチャット画面からサービスへ届く Android ノードを作るという表明です。リポジトリには現在その説明があるだけで——動かせるコードはまだありません。'
+					stage: 'アルファ',
+					body: '仲介者なしで Celaut のサービスを使う Android アプリ。素朴なチャット画面からサービスへ届くライトクライアントで、Ergo ウォレットを内蔵しています。アルファ段階で、プレリリースの APK が GitHub で公開され、開発は活発です。粗い部分があることをご承知ください。'
 				}
 			],
 			note: 'ここにあるものは、どこかで既に動いている何かの穴埋めではありません。動くものは動く、動かないものはそう言う。'
@@ -1317,6 +1318,17 @@ export default {
 		executionHeading: 'サービスの実行',
 		balancerHeading: 'サービスの負荷分散'
 	},
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — ブログ',
+			description: 'AI 経済における分散型コンピューティングの位置づけを考えるエッセイ。'
+		},
+		topbarTitle: 'ブログ',
+		read: '記事を読む →',
+		back: '← 記事一覧'
+	},
+
 	viz: {
 		home: {
 			generation: '第{n}世代',

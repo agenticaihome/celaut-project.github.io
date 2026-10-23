@@ -254,7 +254,8 @@ export default {
 			paradigm: {
 				label: 'Paradigma',
 				short: 'Paradigma'
-			}
+			},
+			blog: { label: 'Blog', short: 'Blog' }
 		}
 	},
 	home: {
@@ -546,7 +547,7 @@ export default {
 		implementations: {
 			eyebrow: 'Perangkat lunaknya',
 			heading: 'Apa yang ada hari ini',
-			intro: 'Arsitektur ini adalah sebuah spesifikasi, dan siapa pun bisa mengimplementasikan node yang sesuai dengannya. Satu implementasi menjalankan jaringan sekarang; yang kedua adalah arah yang diumumkan, dan ditandai sebagai itu.',
+			intro: 'Arsitektur ini adalah sebuah spesifikasi, dan siapa pun dapat mengimplementasikan node berdasarkannya. Satu implementasi menjalankan jaringan saat ini; yang kedua, untuk Android, berada pada tahap alfa.',
 			items: [
 				{
 					name: 'Nodo',
@@ -555,8 +556,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: 'Konsep',
-					body: 'Niat yang dinyatakan untuk membangun node Android yang menjangkau layanan lewat antarmuka obrolan sederhana, tanpa memercayai node mana pun. Repositorinya saat ini hanya memuat deskripsi itu — belum ada kode yang bisa dijalankan.'
+					stage: 'Alfa',
+					body: 'Aplikasi Android untuk memakai layanan Celaut tanpa perantara: klien ringan yang menjangkau layanan lewat antarmuka obrolan sederhana, dengan dompet Ergo bawaan. Aplikasi ini berstatus alfa — APK pra-rilis dipublikasikan di GitHub dan pengembangan terus berjalan, jadi masih ada bagian yang kasar.'
 				}
 			],
 			note: 'Tidak ada satu pun di sini yang menjadi pengganti sementara bagi sesuatu yang sudah berjalan di tempat lain. Yang berjalan, berjalan; yang tidak, mengatakannya.'
@@ -1319,6 +1320,17 @@ export default {
 		executionHeading: 'Eksekusi sebuah service',
 		balancerHeading: 'Penyeimbangan beban service'
 	},
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — Blog',
+			description: 'Esai tentang tempat komputasi terdesentralisasi dalam ekonomi AI.'
+		},
+		topbarTitle: 'Blog',
+		read: 'Baca tulisan →',
+		back: '← Semua tulisan'
+	},
+
 	viz: {
 		home: {
 			generation: 'generasi {n}',

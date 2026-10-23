@@ -253,7 +253,8 @@ export default {
 			paradigm: {
 				label: 'Paradigma',
 				short: 'Paradigma'
-			}
+			},
+			blog: { label: 'Blog', short: 'Blog' }
 		}
 	},
 	home: {
@@ -545,7 +546,7 @@ export default {
 		implementations: {
 			eyebrow: 'Yazılım',
 			heading: 'Bugün ne var',
-			intro: 'Mimari bir şartname; isteyen herkes ona uygun bir düğüm geliştirebilir. Ağı bugün fiilen çalıştıran bir uygulama var; ikincisi ise duyurulmuş bir yön ve öyle işaretlenmiş durumda.',
+			intro: 'Mimari bir şartnamedir ve herkes ona göre bir düğüm uygulayabilir. Bugün ağı tek bir uygulama çalıştırıyor; Android için ikincisi alfa aşamasında.',
 			items: [
 				{
 					name: 'Nodo',
@@ -554,8 +555,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: 'Kavram',
-					body: 'Başka hiçbir düğüme güvenmeden, sade bir sohbet arayüzü üzerinden servislere ulaşan bir Android düğümü yapma niyetinin beyanı. Depo şu an yalnızca bu açıklamayı barındırıyor — çalıştırılacak bir kod henüz yok.'
+					stage: 'Alfa',
+					body: 'Celaut servislerini aracısız kullanmak için bir Android uygulaması: servislere sade bir sohbet arayüzüyle ulaşan, yerleşik Ergo cüzdanlı hafif bir istemci. Alfa aşamasında — ön sürüm APK’ları GitHub’da yayımlanıyor ve geliştirme sürüyor, dolayısıyla pürüzler olabilir.'
 				}
 			],
 			note: 'Burada hiçbir şey, başka bir yerde zaten çalışan bir şeyin yerini geçici olarak tutmuyor. Çalışan çalışır; çalışmayan da bunu söyler.'
@@ -1318,6 +1319,17 @@ export default {
 		executionHeading: 'Bir servisin yürütülmesi',
 		balancerHeading: 'Servis yük dengeleme'
 	},
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — Blog',
+			description: 'Merkeziyetsiz hesaplamanın yapay zekâ ekonomisindeki yerine dair denemeler.'
+		},
+		topbarTitle: 'Blog',
+		read: 'Yazıyı oku →',
+		back: '← Tüm yazılar'
+	},
+
 	viz: {
 		home: {
 			generation: '{n}. kuşak',

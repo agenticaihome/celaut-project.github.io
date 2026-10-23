@@ -4,9 +4,11 @@
 	 *
 	 * Before this existed each page owned a private "← Back to home"
 	 * strip, so there was no way to move between the audience pages
-	 * without going via the landing page. Now the three audience routes
-	 * (+ the paradigm deep dive) are always one click away, and the
-	 * current one is marked with aria-current.
+	 * without going via the landing page. Now the three audience routes,
+	 * the paradigm deep dive and the blog are always one click away, and
+	 * the current one is marked with aria-current and an underline.
+	 * The brand mark is a few cells of a cellular automaton, a nod to the
+	 * name; it is the link home.
 	 *
 	 * Deliberately not in +layout.svelte: the landing page has its own
 	 * SectionIndex rail and hero, and a second fixed bar there would
@@ -37,7 +39,8 @@
 		{ key: 'depin', href: '/depin' },
 		{ key: 'developers', href: '/developers' },
 		{ key: 'users', href: '/users' },
-		{ key: 'paradigm', href: '/paradigm' }
+		{ key: 'paradigm', href: '/paradigm' },
+		{ key: 'blog', href: '/blog' }
 	];
 
 	// Compare against the canonical, unprefixed path — /es/depin and
@@ -47,7 +50,13 @@
 
 <header class="topbar" class:sticky={position === 'sticky'}>
 	<a class="home-link" href={$href('/')}>
-		<span aria-hidden="true">←</span>
+		<svg class="mark" viewBox="0 0 15 15" width="22" height="22" aria-hidden="true">
+			<rect x="5" y="0" width="5" height="5" rx="1" />
+			<rect x="10" y="5" width="5" height="5" rx="1" />
+			<rect x="0" y="10" width="5" height="5" rx="1" />
+			<rect x="5" y="10" width="5" height="5" rx="1" />
+			<rect x="10" y="10" width="5" height="5" rx="1" />
+		</svg>
 		<span class="wordmark">CELAUT</span>
 	</a>
 
@@ -61,7 +70,7 @@
 				<li>
 					<a
 						href={$href(l.href)}
-						class:active={current === l.href}
+						class:active={current === l.href || current.startsWith(l.href + '/')}
 						aria-current={current === l.href ? 'page' : undefined}
 						><span class="label-full">{$t(`topbar.links.${l.key}.label`)}</span><span
 							class="label-short">{$t(`topbar.links.${l.key}.short`)}</span
@@ -115,9 +124,10 @@
 		color: var(--accent-text);
 	}
 
-	:global(html[dir='rtl']) .home-link span[aria-hidden] {
-		display: inline-block;
-		transform: scaleX(-1);
+	/* A glider, the smallest pattern that travels. */
+	.mark {
+		fill: var(--accent);
+		flex: none;
 	}
 
 	.wordmark {
@@ -125,12 +135,15 @@
 		letter-spacing: 0.08em;
 	}
 
+	/* The page title reads as a breadcrumb: a divider, then the name. */
 	.topbar-title {
 		font-family: var(--font-heading);
 		font-weight: 700;
 		font-size: 1.02rem;
 		color: var(--on-surface-muted);
 		white-space: nowrap;
+		padding-inline-start: 18px;
+		border-inline-start: 1px solid var(--border-strong);
 	}
 
 	nav {
@@ -158,6 +171,7 @@
 
 	nav a {
 		display: block;
+		position: relative;
 		padding: 7px 12px;
 		border-radius: 8px;
 		text-decoration: none;
@@ -176,6 +190,22 @@
 	nav a.active {
 		color: var(--accent-text);
 		background-color: var(--accent-soft);
+	}
+
+	nav a.active::after {
+		content: '';
+		position: absolute;
+		inset-inline: 12px;
+		bottom: 2px;
+		height: 2px;
+		border-radius: 2px;
+		background-color: var(--accent);
+	}
+
+	nav a:focus-visible,
+	.home-link:focus-visible {
+		outline: 2px solid var(--accent);
+		outline-offset: 2px;
 	}
 
 	.label-short {
@@ -200,6 +230,10 @@
 		nav a {
 			padding: 7px 7px;
 			font-size: 0.84rem;
+		}
+
+		nav a.active::after {
+			inset-inline: 7px;
 		}
 
 		.label-full {

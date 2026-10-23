@@ -249,7 +249,8 @@ export default {
 			paradigm: {
 				label: '范式',
 				short: '范式'
-			}
+			},
+			blog: { label: '博客', short: '博客' }
 		}
 	},
 	home: {
@@ -541,7 +542,7 @@ export default {
 		implementations: {
 			eyebrow: '软件',
 			heading: '今天已有什么',
-			intro: '这套架构是一份规范，任何人都可以据此实现节点。目前有一个实现在真正支撑网络运行；第二个只是已宣布的方向，并被如实标注。',
+			intro: '该架构是一份规范，任何人都可以据此实现节点。目前有一个实现在运行网络；第二个面向 Android，处于 Alpha 阶段。',
 			items: [
 				{
 					name: 'Nodo',
@@ -550,8 +551,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: '构想',
-					body: '一个已表明的意图：构建一个 Android 节点，通过朴素的聊天界面访问服务，且不必信任任何其他节点。该仓库目前只有这段描述——还没有可运行的代码。'
+					stage: 'Alpha',
+					body: '一款无需中间人即可使用 Celaut 服务的 Android 应用：它是一个轻客户端，通过朴素的聊天界面访问服务，并内置 Ergo 钱包。目前处于 Alpha 阶段——预发布 APK 已在 GitHub 发布，开发仍在积极进行，难免有粗糙之处。'
 				}
 			],
 			note: '这里没有任何东西是在替某个别处已经跑起来的东西占位。能跑的就是能跑；不能跑的，它自己会说明。'
@@ -1314,6 +1315,17 @@ export default {
 		executionHeading: '服务的执行',
 		balancerHeading: '服务负载均衡'
 	},
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — 博客',
+			description: '探讨去中心化算力在 AI 经济中位置的文章。'
+		},
+		topbarTitle: '博客',
+		read: '阅读文章 →',
+		back: '← 全部文章'
+	},
+
 	viz: {
 		home: {
 			generation: '第 {n} 代',

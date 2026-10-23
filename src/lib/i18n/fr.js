@@ -252,7 +252,8 @@ export default {
 			paradigm: {
 				label: 'Paradigme',
 				short: 'Paradigme'
-			}
+			},
+			blog: { label: 'Blog', short: 'Blog' }
 		}
 	},
 	home: {
@@ -544,7 +545,7 @@ export default {
 		implementations: {
 			eyebrow: 'Le logiciel',
 			heading: 'Ce qui existe aujourd’hui',
-			intro: 'L’architecture est une spécification, et n’importe qui peut implémenter un nœud qui s’y conforme. Une implémentation fait tourner le réseau aujourd’hui ; la seconde est une direction annoncée, et elle est signalée comme telle.',
+			intro: 'L’architecture est une spécification, et chacun peut implémenter un nœud à partir d’elle. Une implémentation fait tourner le réseau aujourd’hui ; une seconde, pour Android, est en alpha.',
 			items: [
 				{
 					name: 'Nodo',
@@ -553,8 +554,8 @@ export default {
 				},
 				{
 					name: 'Chatui',
-					stage: 'Concept',
-					body: 'L’intention déclarée de construire un nœud Android qui atteint les services via une simple interface de discussion, sans faire confiance à aucun autre nœud. Le dépôt contient aujourd’hui cette description et rien d’autre — il n’y a pas encore de code à exécuter.'
+					stage: 'Alpha',
+					body: 'Une application Android pour utiliser les services Celaut sans intermédiaire : un client léger qui atteint les services via une simple interface de chat, avec un portefeuille Ergo intégré. Elle est en alpha — des APK en préversion sont publiés sur GitHub et le développement est actif ; attendez-vous à des aspérités.'
 				}
 			],
 			note: 'Rien ici ne remplace provisoirement quelque chose qui fonctionnerait déjà ailleurs. Ce qui tourne, tourne ; ce qui ne tourne pas, le dit.'
@@ -1317,6 +1318,17 @@ export default {
 		executionHeading: 'Exécution d’un service',
 		balancerHeading: 'Répartition de charge des services'
 	},
+	/* /blog — chrome only; the posts themselves are markdown in $lib/blog. */
+	blog: {
+		meta: {
+			title: 'Celaut — Blog',
+			description: 'Essais sur la place du calcul décentralisé dans l’économie de l’IA.'
+		},
+		topbarTitle: 'Blog',
+		read: 'Lire l’article →',
+		back: '← Tous les articles'
+	},
+
 	viz: {
 		home: {
 			generation: 'génération {n}',
