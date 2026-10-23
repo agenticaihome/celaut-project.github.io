@@ -77,7 +77,7 @@ Lo que esto sugiere es que **quién tiene el poder podría depender en buena med
 
 ## ¿Qué pasa si el cómputo sigue abaratándose?
 
-El coste por unidad de cómputo ha caído de forma sostenida durante décadas [requiere fuente]. Esto admite dos lecturas, y ambas son plausibles.
+El coste por unidad de cómputo ha caído de forma sostenida durante décadas. Esto admite dos lecturas, y ambas son plausibles.
 
 - **Efecto igualador.** Si el umbral a partir del cual la curva 1 se aplana queda pronto al alcance de cualquiera, lo que hoy da ventaja a quien gasta 20.000 $ mañana lo obtendrá quien gaste 200 $.
 - **Efecto Reina Roja.** Si la curva no se aplana, el abaratamiento solo sube el nivel de la subasta: todos compran más con el mismo dinero, y las posiciones relativas quedan donde estaban.

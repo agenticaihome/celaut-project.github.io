@@ -77,7 +77,7 @@ What this suggests is that **who holds power may depend largely on technical fac
 
 ## What if compute keeps getting cheaper?
 
-The cost per unit of compute has fallen steadily for decades [source needed]. This admits two readings, and both are plausible.
+The cost per unit of compute has fallen steadily for decades. This admits two readings, and both are plausible.
 
 - **Equalising effect.** If the point where curve 1 flattens soon comes within anyone's reach, what gives an edge to whoever spends $20,000 today will be had tomorrow by whoever spends $200.
 - **Red Queen effect.** If the curve does not flatten, cheaper compute only raises the level of the auction: everyone buys more with the same money, and relative positions stay where they were.
