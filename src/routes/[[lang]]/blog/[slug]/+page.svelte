@@ -166,4 +166,98 @@
 	.prose :global(em) {
 		color: var(--on-surface-muted);
 	}
+
+	/*
+	 * Inline SVG charts written into the markdown. Colours come from the
+	 * theme tokens, so they follow dark and light; the two series also
+	 * differ by dash, so colour is never the only cue.
+	 */
+	.prose :global(figure.chart) {
+		margin: 8px auto 28px;
+		max-width: 560px;
+	}
+
+	.prose :global(figure.chart svg) {
+		display: block;
+		width: 100%;
+		height: auto;
+		font-family: inherit;
+	}
+
+	.prose :global(figure.chart figcaption) {
+		margin-top: 6px;
+		font-size: 0.85rem;
+		line-height: 1.5;
+		color: var(--on-surface-subtle);
+		text-align: center;
+	}
+
+	.prose :global(.chart .axis) {
+		stroke: var(--on-surface-subtle);
+		stroke-width: 1;
+	}
+
+	.prose :global(.chart .grid),
+	.prose :global(.chart .guide) {
+		stroke: var(--border);
+		stroke-width: 1;
+	}
+
+	.prose :global(.chart .guide) {
+		stroke-dasharray: 3 4;
+	}
+
+	.prose :global(.chart text) {
+		font-size: 14px;
+		fill: var(--on-surface-muted);
+	}
+
+	.prose :global(.chart .tick) {
+		font-size: 13px;
+		fill: var(--on-surface-subtle);
+	}
+
+	/* The chart scales down on phones; keep its text readable. */
+	@media (max-width: 520px) {
+		.prose :global(.chart text) {
+			font-size: 19px;
+		}
+
+		.prose :global(.chart .tick) {
+			font-size: 18px;
+		}
+	}
+
+	.prose :global(.chart .series) {
+		font-weight: 700;
+		fill: var(--on-surface);
+	}
+
+	.prose :global(.chart .curve) {
+		fill: none;
+		stroke-width: 2.5;
+		stroke-linecap: round;
+	}
+
+	.prose :global(.chart .curve.flat) {
+		stroke: var(--on-surface-muted);
+		stroke-dasharray: 7 5;
+	}
+
+	.prose :global(.chart .curve.rise) {
+		stroke: var(--accent-text);
+	}
+
+	.prose :global(.chart .dot) {
+		stroke: var(--surface);
+		stroke-width: 2;
+	}
+
+	.prose :global(.chart .dot.flat) {
+		fill: var(--on-surface-muted);
+	}
+
+	.prose :global(.chart .dot.rise) {
+		fill: var(--accent-text);
+	}
 </style>
