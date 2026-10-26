@@ -1347,8 +1347,7 @@ export default {
 				'Kwa mtumiaji wa huduma na bila sudo, VM zinaendeshwa ndani ya <code>nodo.service</code>. Kila mara huduma inapoanzishwa upya, zote husimama, hata kwa <code>nodo update</code> na <code>nodo daemon restart</code>. Wateja wa VM hizo lazima wazianzishe tena.',
 				'Mashine moja inaendesha nodi moja: njia zote tatu zinasakinisha <code>nodo.service</code> ileile.',
 				'Python, Java na <code>yq</code> zinasakinishwa ndani ya saraka ya nodi yenyewe, katika njia zote tatu.',
-				'Nodo inaonyesha amri inayofungua mlango (port) wake wa gateway kwenye firewall yako (ufw, firewalld). Haibadilishi firewall hiyo yenyewe.',
-				'Kabla ya kuondoa, hifadhi maneno ya siri (mnemonic) ya pochi kutoka <code>config.yaml</code>.'
+				'Nodo inaonyesha amri inayofungua mlango (port) wake wa gateway kwenye firewall yako (ufw, firewalld). Haibadilishi firewall hiyo yenyewe.'
 			],
 			rootlessNote: 'Kile ambacho kila njia inahitaji, na kwa nini: {link}.',
 			manualNote: 'Kwa usakinishaji wa mkono kabisa, fuata {link}.',

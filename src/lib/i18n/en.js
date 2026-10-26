@@ -1430,8 +1430,7 @@ export default {
 				'With a service user and without sudo, the VMs run inside <code>nodo.service</code>. A restart of the service stops all of them, also <code>nodo update</code> and <code>nodo daemon restart</code>. Their clients must start them again.',
 				'One machine runs one node: the three modes install the same <code>nodo.service</code>.',
 				'Python, Java and <code>yq</code> are installed under the node’s own directory, in all three modes.',
-				'Nodo shows the command that opens its gateway port in your firewall (ufw, firewalld). It does not change that firewall itself.',
-				'Before you uninstall, save the wallet mnemonics from <code>config.yaml</code>.'
+				'Nodo shows the command that opens its gateway port in your firewall (ufw, firewalld). It does not change that firewall itself.'
 			],
 			rootlessNote: 'What each mode needs, and why: {link}.',
 			manualNote: 'For a fully manual install, follow the {link}.',

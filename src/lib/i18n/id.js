@@ -1348,8 +1348,7 @@ export default {
 				'Dengan pengguna service dan tanpa sudo, VM berjalan di dalam <code>nodo.service</code>. Setiap restart service menghentikan semuanya, termasuk restart oleh <code>nodo update</code> dan <code>nodo daemon restart</code>. Klien VM itu harus menyalakannya lagi.',
 				'Satu mesin menjalankan satu node: ketiga mode memasang <code>nodo.service</code> yang sama.',
 				'Python, Java, dan <code>yq</code> dipasang di direktori milik node itu sendiri, di ketiga mode.',
-				'Nodo menampilkan perintah untuk membuka port gateway-nya di firewall-mu (ufw, firewalld). Nodo tidak mengubah firewall itu sendiri.',
-				'Sebelum mencopot, simpan frasa mnemonik dompet dari <code>config.yaml</code>.'
+				'Nodo menampilkan perintah untuk membuka port gateway-nya di firewall-mu (ufw, firewalld). Nodo tidak mengubah firewall itu sendiri.'
 			],
 			rootlessNote: 'Apa yang dibutuhkan tiap mode, dan alasannya: {link}.',
 			manualNote: 'Untuk pemasangan yang sepenuhnya manual, ikuti {link}.',

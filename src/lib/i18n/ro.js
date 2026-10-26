@@ -1348,8 +1348,7 @@ export default {
 				'Cu utilizator de serviciu și fără sudo, VM-urile rulează în interiorul <code>nodo.service</code>. Orice repornire a serviciului le oprește pe toate, inclusiv cea făcută de <code>nodo update</code> și <code>nodo daemon restart</code>. Clienții lor trebuie să le pornească din nou.',
 				'O mașină rulează un singur nod: cele trei moduri instalează același <code>nodo.service</code>.',
 				'Python, Java și <code>yq</code> se instalează în directorul propriu al nodului, în toate cele trei moduri.',
-				'Nodo afișează comanda care deschide portul său de gateway în firewall-ul tău (ufw, firewalld). Nu modifică el însuși acel firewall.',
-				'Înainte să dezinstalezi, salvează frazele mnemonice ale portofelelor din <code>config.yaml</code>.'
+				'Nodo afișează comanda care deschide portul său de gateway în firewall-ul tău (ufw, firewalld). Nu modifică el însuși acel firewall.'
 			],
 			rootlessNote: 'De ce are nevoie fiecare mod, și de ce: {link}.',
 			manualNote: 'Pentru o instalare complet manuală, urmează {link}.',

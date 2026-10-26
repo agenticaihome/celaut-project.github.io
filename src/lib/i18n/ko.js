@@ -1345,8 +1345,7 @@ export default {
 				'서비스 사용자 모드와 sudo 없는 모드에서는 VM이 <code>nodo.service</code> 안에서 실행된다. 서비스가 재시작되면 <code>nodo update</code>나 <code>nodo daemon restart</code>에 의한 재시작을 포함해 VM이 모두 멈춘다. 그 VM의 클라이언트가 다시 시작해야 한다.',
 				'한 기계에서는 노드 하나만 돌린다: 세 모드 모두 같은 <code>nodo.service</code>를 설치한다.',
 				'Python, Java, <code>yq</code>는 세 모드 모두에서 노드 자신의 디렉터리에 설치된다.',
-				'Nodo는 방화벽(ufw, firewalld)에서 자신의 게이트웨이 포트를 여는 명령을 보여 준다. 그 방화벽을 Nodo가 직접 바꾸지는 않는다.',
-				'제거하기 전에 <code>config.yaml</code>에 있는 지갑의 니모닉을 저장하라.'
+				'Nodo는 방화벽(ufw, firewalld)에서 자신의 게이트웨이 포트를 여는 명령을 보여 준다. 그 방화벽을 Nodo가 직접 바꾸지는 않는다.'
 			],
 			rootlessNote: '각 모드에 필요한 것과 그 이유: {link}.',
 			manualNote: '완전히 수동으로 설치하려면 {link}를 따르라.',

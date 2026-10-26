@@ -1343,8 +1343,7 @@ export default {
 				'在服务用户和免 sudo 模式下，虚拟机运行在 <code>nodo.service</code> 之内。服务的每次重启都会停止所有虚拟机，<code>nodo update</code> 和 <code>nodo daemon restart</code> 引起的重启也一样。它们的客户端需要重新启动它们。',
 				'一台机器只运行一个节点：三种模式安装的都是同一个 <code>nodo.service</code>。',
 				'在三种模式下，Python、Java 和 <code>yq</code> 都安装在节点自己的目录中。',
-				'Nodo 会显示在你的防火墙（ufw、firewalld）中打开其网关端口的命令，但不会自己修改该防火墙。',
-				'卸载前，请保存 <code>config.yaml</code> 中钱包的助记词。'
+				'Nodo 会显示在你的防火墙（ufw、firewalld）中打开其网关端口的命令，但不会自己修改该防火墙。'
 			],
 			rootlessNote: '每种模式需要什么，以及原因：{link}。',
 			manualNote: '如需完全手动安装，请参考{link}。',

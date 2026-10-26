@@ -1349,8 +1349,7 @@ export default {
 				'Con usuario de servicio y sin sudo, las VMs se ejecutan dentro de <code>nodo.service</code>. Un reinicio del servicio las detiene todas, también <code>nodo update</code> y <code>nodo daemon restart</code>. Sus clientes tienen que volver a iniciarlas.',
 				'Una máquina ejecuta un solo nodo: los tres modos instalan el mismo <code>nodo.service</code>.',
 				'Python, Java y <code>yq</code> se instalan dentro del directorio del propio nodo, en los tres modos.',
-				'Nodo muestra el comando que abre su puerto de gateway en tu cortafuegos (ufw, firewalld). Nodo no cambia ese cortafuegos por sí mismo.',
-				'Antes de desinstalar, guarda las frases mnemónicas de las carteras que están en <code>config.yaml</code>.'
+				'Nodo muestra el comando que abre su puerto de gateway en tu cortafuegos (ufw, firewalld). Nodo no cambia ese cortafuegos por sí mismo.'
 			],
 			rootlessNote: 'Qué necesita cada modo, y por qué: {link}.',
 			manualNote: 'Para una instalación totalmente manual, sigue la {link}.',

@@ -1346,8 +1346,7 @@ export default {
 				'サービスユーザーとsudoなしのモードでは、VMは<code>nodo.service</code>の中で動く。サービスを再起動すると、<code>nodo update</code>や<code>nodo daemon restart</code>による再起動も含め、VMはすべて止まる。それらのクライアントがVMを再び起動する必要がある。',
 				'1台のマシンで動かせるノードは1つ：3つのモードはどれも同じ<code>nodo.service</code>をインストールする。',
 				'Python、Java、<code>yq</code>は、3つのモードすべてでノード自身のディレクトリにインストールされる。',
-				'Nodoは、ファイアウォール（ufw、firewalld）でゲートウェイポートを開くコマンドを表示する。そのファイアウォール自体をNodoが変更することはない。',
-				'アンインストールする前に、<code>config.yaml</code>にあるウォレットのニーモニックを保存してください。'
+				'Nodoは、ファイアウォール（ufw、firewalld）でゲートウェイポートを開くコマンドを表示する。そのファイアウォール自体をNodoが変更することはない。'
 			],
 			rootlessNote: '各モードに必要なものとその理由：{link}。',
 			manualNote: '完全に手動でインストールするには、{link}に従ってください。',

@@ -1347,8 +1347,7 @@ export default {
 				'Mit Dienstbenutzer und ohne sudo laufen die VMs innerhalb von <code>nodo.service</code>. Jeder Neustart des Dienstes stoppt sie alle, auch der durch <code>nodo update</code> und <code>nodo daemon restart</code>. Ihre Clients müssen sie erneut starten.',
 				'Eine Maschine betreibt einen Node: Die drei Modi installieren denselben Dienst <code>nodo.service</code>.',
 				'Python, Java und <code>yq</code> werden in allen drei Modi im eigenen Verzeichnis des Nodes installiert.',
-				'Nodo zeigt den Befehl, der seinen Gateway-Port in deiner Firewall (ufw, firewalld) öffnet. Diese Firewall ändert Nodo nicht selbst.',
-				'Sichere vor dem Deinstallieren die Mnemonics der Wallets aus <code>config.yaml</code>.'
+				'Nodo zeigt den Befehl, der seinen Gateway-Port in deiner Firewall (ufw, firewalld) öffnet. Diese Firewall ändert Nodo nicht selbst.'
 			],
 			rootlessNote: 'Was jeder Modus braucht, und warum: {link}.',
 			manualNote: 'Für eine vollständig manuelle Installation folge der {link}.',

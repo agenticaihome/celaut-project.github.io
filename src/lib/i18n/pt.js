@@ -1346,8 +1346,7 @@ export default {
 				'Com o usuário de serviço e sem sudo, as VMs rodam dentro do <code>nodo.service</code>. Qualquer reinício do serviço interrompe todas elas, inclusive o de <code>nodo update</code> e o de <code>nodo daemon restart</code>. Os clientes delas precisam iniciá-las de novo.',
 				'Uma máquina roda um só nó: os três modos instalam o mesmo <code>nodo.service</code>.',
 				'Python, Java e <code>yq</code> são instalados dentro do diretório do próprio nó, nos três modos.',
-				'O Nodo mostra o comando que abre a porta do gateway dele no seu firewall (ufw, firewalld). Ele não altera esse firewall por conta própria.',
-				'Antes de desinstalar, guarde as frases mnemônicas das carteiras que estão em <code>config.yaml</code>.'
+				'O Nodo mostra o comando que abre a porta do gateway dele no seu firewall (ufw, firewalld). Ele não altera esse firewall por conta própria.'
 			],
 			rootlessNote: 'Do que cada modo precisa, e por quê: {link}.',
 			manualNote: 'Para uma instalação totalmente manual, siga o {link}.',

@@ -1346,8 +1346,7 @@ export default {
 				'Ở chế độ người dùng service và chế độ không cần sudo, các VM chạy bên trong <code>nodo.service</code>. Mỗi lần khởi động lại service đều dừng tất cả chúng, kể cả khi do <code>nodo update</code> và <code>nodo daemon restart</code>. Các client của chúng phải khởi động lại chúng.',
 				'Mỗi máy chạy một node: cả ba chế độ đều cài cùng một <code>nodo.service</code>.',
 				'Python, Java và <code>yq</code> được cài trong thư mục riêng của node, ở cả ba chế độ.',
-				'Nodo hiển thị lệnh mở cổng gateway của nó trên tường lửa của bạn (ufw, firewalld). Nodo không tự thay đổi tường lửa đó.',
-				'Trước khi gỡ cài đặt, hãy lưu lại cụm từ ghi nhớ (mnemonic) của các ví trong <code>config.yaml</code>.'
+				'Nodo hiển thị lệnh mở cổng gateway của nó trên tường lửa của bạn (ufw, firewalld). Nodo không tự thay đổi tường lửa đó.'
 			],
 			rootlessNote: 'Mỗi chế độ cần gì, và vì sao: {link}.',
 			manualNote: 'Để cài hoàn toàn thủ công, hãy theo {link}.',

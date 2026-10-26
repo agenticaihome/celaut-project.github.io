@@ -1347,8 +1347,7 @@ export default {
 				"Servis kullanıcısıyla ve sudo olmadan VM'ler <code>nodo.service</code> içinde çalışır. Servisin her yeniden başlatılması, <code>nodo update</code> ve <code>nodo daemon restart</code> dahil, hepsini durdurur. İstemcilerinin onları yeniden başlatması gerekir.",
 				"Bir makinede tek bir node çalışır: üç mod da aynı <code>nodo.service</code>'i kurar.",
 				"Python, Java ve <code>yq</code> üç modda da node'un kendi dizinine kurulur.",
-				'Nodo, gateway portunu güvenlik duvarında (ufw, firewalld) açan komutu gösterir. O güvenlik duvarını kendisi değiştirmez.',
-				'Kaldırmadan önce <code>config.yaml</code> içindeki cüzdanların anımsatıcı ifadelerini (mnemonic) yedekle.'
+				'Nodo, gateway portunu güvenlik duvarında (ufw, firewalld) açan komutu gösterir. O güvenlik duvarını kendisi değiştirmez.'
 			],
 			rootlessNote: 'Her modun neye ihtiyaç duyduğu ve nedeni: {link}.',
 			manualNote: 'Tamamen elle kurulum için {link} izle.',

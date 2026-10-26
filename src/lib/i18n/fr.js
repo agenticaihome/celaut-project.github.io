@@ -1346,8 +1346,7 @@ export default {
 				'Avec l’utilisateur de service et sans sudo, les VM tournent dans <code>nodo.service</code>. Tout redémarrage du service les arrête toutes, y compris celui que font <code>nodo update</code> et <code>nodo daemon restart</code>. Leurs clients doivent les relancer.',
 				'Une machine fait tourner un seul nœud : les trois modes installent le même <code>nodo.service</code>.',
 				'Python, Java et <code>yq</code> s’installent dans le répertoire du nœud lui-même, dans les trois modes.',
-				'Nodo affiche la commande qui ouvre son port de passerelle (gateway) dans votre pare-feu (ufw, firewalld). Il ne modifie pas ce pare-feu lui-même.',
-				'Avant de désinstaller, sauvegardez les phrases mnémoniques des portefeuilles qui se trouvent dans <code>config.yaml</code>.'
+				'Nodo affiche la commande qui ouvre son port de passerelle (gateway) dans votre pare-feu (ufw, firewalld). Il ne modifie pas ce pare-feu lui-même.'
 			],
 			rootlessNote: 'Ce dont chaque mode a besoin, et pourquoi : {link}.',
 			manualNote: 'Pour une installation entièrement manuelle, suivez le {link}.',
