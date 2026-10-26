@@ -1280,13 +1280,7 @@ export default {
 		copy: 'Nakili',
 		copied: 'Imenakiliwa ✓',
 		linux: {
-			heading: 'Linux',
-			intro: 'Usakinishaji wa msingi — endesha hii kwenye terminal yako:',
-			notes: [
-				'Skripti inahitaji <code>sudo</code> kwa mipangilio ya ngazi ya mfumo. Mazingira ya kuendesha ya Python, Java, na <code>yq</code> yanasakinishwa kwa ndani ndani ya saraka kuu ya nodi.',
-				'Unapendelea usakinishaji wa mkono, bila sudo? Fuata {link}.'
-			],
-			manualLink: 'mwongozo wa mkono'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',

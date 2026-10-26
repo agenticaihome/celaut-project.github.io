@@ -1279,13 +1279,7 @@ export default {
 		copy: 'コピー',
 		copied: 'コピーしました ✓',
 		linux: {
-			heading: 'Linux',
-			intro: '基本的なインストール——ターミナルでこれを実行してください:',
-			notes: [
-				'このスクリプトはシステムレベルの設定のために<code>sudo</code>を必要とする。Python、Java、<code>yq</code>のランタイムは、ノードのメインディレクトリの下にローカルにインストールされる。',
-				'sudoを使わない手動インストールを好む場合は、{link}に従ってください。'
-			],
-			manualLink: '手動インストールガイド'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',

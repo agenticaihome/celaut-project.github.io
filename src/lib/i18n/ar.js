@@ -1281,13 +1281,7 @@ export default {
 		copy: 'نسخ',
 		copied: 'تم النسخ ✓',
 		linux: {
-			heading: 'Linux',
-			intro: 'تثبيت أساسي — شغّل هذا في الطرفية لديك:',
-			notes: [
-				'يحتاج السكربت إلى <code>sudo</code> للإعداد على مستوى النظام. تُثبَّت بيئات تشغيل Python وJava وأداة <code>yq</code> محليًا داخل الدليل الرئيسي للعُقدة.',
-				'تفضّل تثبيتًا يدويًا بلا sudo؟ اتّبع {link}.'
-			],
-			manualLink: 'الدليل اليدوي'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',

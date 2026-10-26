@@ -1278,13 +1278,7 @@ export default {
 		copy: '복사',
 		copied: '복사됨 ✓',
 		linux: {
-			heading: 'Linux',
-			intro: '기본 설치 — 터미널에서 다음을 실행하라:',
-			notes: [
-				'스크립트는 시스템 수준 설정을 위해 <code>sudo</code>가 필요하다. Python, Java, <code>yq</code> 런타임은 노드의 기본 디렉터리 아래에 로컬로 설치된다.',
-				'sudo 없이 수동으로 설치하고 싶다면 {link}를 따르라.'
-			],
-			manualLink: '수동 설치 가이드'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',

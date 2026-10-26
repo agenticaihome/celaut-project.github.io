@@ -1280,13 +1280,7 @@ export default {
 		copy: 'Kopieren',
 		copied: 'Kopiert ✓',
 		linux: {
-			heading: 'Linux',
-			intro: 'Grundinstallation — führe das in deinem Terminal aus:',
-			notes: [
-				'Das Skript braucht <code>sudo</code> für die Einrichtung auf Systemebene. Die Laufzeitumgebungen für Python, Java und <code>yq</code> werden lokal im Hauptverzeichnis des Nodes installiert.',
-				'Lieber manuell und ohne sudo installieren? Folge der {link}.'
-			],
-			manualLink: 'Anleitung für die manuelle Installation'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',

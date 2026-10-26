@@ -1281,13 +1281,7 @@ export default {
 		copy: 'Salin',
 		copied: 'Tersalin ✓',
 		linux: {
-			heading: 'Linux',
-			intro: 'Pemasangan dasar — jalankan ini di terminalmu:',
-			notes: [
-				'Skripnya butuh <code>sudo</code> untuk penyiapan di tingkat sistem. Runtime Python, Java, dan <code>yq</code> dipasang secara lokal di bawah direktori utama node.',
-				'Lebih suka pemasangan manual tanpa sudo? Ikuti {link}.'
-			],
-			manualLink: 'panduan manual'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',

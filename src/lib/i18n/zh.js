@@ -1276,13 +1276,7 @@ export default {
 		copy: '复制',
 		copied: '已复制 ✓',
 		linux: {
-			heading: 'Linux',
-			intro: '基础安装——在你的终端中运行以下命令:',
-			notes: [
-				'该脚本需要 <code>sudo</code> 权限来完成系统级的设置。Python、Java 与 <code>yq</code> 运行时会被安装在节点主目录之下的本地环境中。',
-				'更倾向于手动安装、不使用 sudo?请参考{link}。'
-			],
-			manualLink: '手动安装指南'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',

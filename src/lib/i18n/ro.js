@@ -1281,13 +1281,7 @@ export default {
 		copy: 'Copiază',
 		copied: 'Copiat ✓',
 		linux: {
-			heading: 'Linux',
-			intro: 'Instalare de bază — rulează asta în terminal:',
-			notes: [
-				'Scriptul are nevoie de <code>sudo</code> pentru configurarea la nivel de sistem. Mediile de rulare Python, Java și <code>yq</code> se instalează local, în directorul principal al nodului.',
-				'Preferi o instalare manuală, fără sudo? Urmează {link}.'
-			],
-			manualLink: 'ghidul manual'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',

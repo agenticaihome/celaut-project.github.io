@@ -1279,13 +1279,7 @@ export default {
 		copy: 'Copier',
 		copied: 'Copié ✓',
 		linux: {
-			heading: 'Linux',
-			intro: 'Installation de base — exécutez ceci dans votre terminal :',
-			notes: [
-				'Le script a besoin de <code>sudo</code> pour la configuration au niveau système. Les runtimes Python, Java et <code>yq</code> s’installent localement dans le répertoire principal du nœud.',
-				'Vous préférez une installation manuelle, sans sudo ? Suivez le {link}.'
-			],
-			manualLink: 'guide manuel'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',

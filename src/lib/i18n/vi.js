@@ -1279,13 +1279,7 @@ export default {
 		copy: 'Sao chép',
 		copied: 'Đã sao chép ✓',
 		linux: {
-			heading: 'Linux',
-			intro: 'Cài đặt cơ bản — chạy lệnh này trong terminal của bạn:',
-			notes: [
-				'Script cần <code>sudo</code> để thiết lập ở tầng hệ thống. Các runtime Python, Java và <code>yq</code> được cài cục bộ trong thư mục chính của node.',
-				'Thích cài thủ công, không cần sudo? Hãy theo {link}.'
-			],
-			manualLink: 'hướng dẫn thủ công'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',

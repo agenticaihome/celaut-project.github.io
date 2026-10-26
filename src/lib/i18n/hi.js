@@ -1278,13 +1278,7 @@ export default {
 		copy: 'कॉपी करें',
 		copied: 'कॉपी हो गया ✓',
 		linux: {
-			heading: 'Linux',
-			intro: 'बुनियादी इंस्टॉलेशन — इसे अपने टर्मिनल में चलाएँ:',
-			notes: [
-				'सिस्टम-स्तर की सेटअप के लिए इस स्क्रिप्ट को <code>sudo</code> चाहिए। Python, Java और <code>yq</code> रनटाइम नोड की मुख्य डायरेक्टरी के अंदर स्थानीय रूप से इंस्टॉल होते हैं।',
-				'मैनुअल, बिना sudo वाला इंस्टॉल चाहिए? {link} फ़ॉलो करें।'
-			],
-			manualLink: 'मैनुअल गाइड'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',

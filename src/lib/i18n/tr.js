@@ -1280,13 +1280,7 @@ export default {
 		copy: 'Kopyala',
 		copied: 'Kopyalandı ✓',
 		linux: {
-			heading: 'Linux',
-			intro: 'Temel kurulum — bunu terminalinde çalıştır:',
-			notes: [
-				"Betik, sistem düzeyindeki kurulum için <code>sudo</code> gerektirir. Python, Java ve <code>yq</code> çalışma zamanları node'un ana dizini altına yerel olarak kurulur.",
-				"Elle, sudo'suz kurulumu mu tercih edersin? {link} izle."
-			],
-			manualLink: 'elle kurulum kılavuzunu'
+			heading: 'Linux'
 		},
 		windows: {
 			heading: 'Windows 11',
