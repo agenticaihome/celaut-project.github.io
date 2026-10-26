@@ -464,6 +464,14 @@
 	.panel p :global(strong) {
 		color: var(--on-surface);
 	}
+	/* Commands and paths read left to right on a right-to-left page too:
+	   without this, Arabic shows /var/lib/nodo as var/lib/nodo/ and the
+	   command box opens scrolled to its end. */
+	.panel :global(code),
+	.code-scroll {
+		direction: ltr;
+		unicode-bidi: isolate;
+	}
 
 	/*
 	 * The mode chooser. Seven columns do not fit a phone, and a table
